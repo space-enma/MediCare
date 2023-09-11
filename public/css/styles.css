@@ -1,0 +1,94 @@
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  height: 120px;
+  background-color: white;
+
+}
+
+html{
+  overflow: hidden;
+}
+
+.aviso-container{
+  background-color: #2193B0;
+}
+
+.aviso{
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: #2193B0;
+  
+}
+.aviso h1{
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.header{
+  max-width: 1140px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-logo{
+  width: 180px;
+}
+
+.menu ul, .menu li{
+  list-style: none;
+}
+.menu ul{
+  display: flex;
+}
+
+.menu li a{
+  display: flex;
+  height: 100px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 20px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.menu li a:hover{
+  color: #2193B0;
+}
+
+nav{
+  margin-right: 160px;
+}
+
+.area1{
+  height: 200px;
+  background-color: #2193B0;
+}
+
+/*Footer*/
+footer{
+  background-color: black;
+  height: 300px;
+
+}
